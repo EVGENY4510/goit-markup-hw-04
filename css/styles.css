@@ -114,10 +114,12 @@ img {
     text-decoration: none;
     padding-top: 24px;
     padding-bottom: 24px;
+    fill: var(--body-text);
 }
 .primary-contact:hover,
 .primary-contact:focus {
     color: var(--primary-brand);
+    fill: var(--primary-brand);
 }
 .contact .item + .item {
     margin-left: 40px;
@@ -127,16 +129,8 @@ img {
     align-items: center;
     
 }
-.header-icons.phone {
-    margin-right: 40px;
-}
 .icon-header {
-    fill: var(--body-text);
     margin-right: 12px;
-}
-.icon-header:hover,
-.icon-header:focus {
-    fill: var(--primary-brand);
 }
 .hero {
     color: var(--white);
@@ -249,6 +243,7 @@ img {
 .text {
     display: flex;
     justify-content: center;
+    margin-bottom: 12px;
 }
 .link-icon {
     width: 100%;
@@ -265,7 +260,7 @@ img {
 }
 .ot-icons {
     display: flex;
-    margin-top: 12px;
+    
 }
 .icon-ot {
     width: 40px;
@@ -289,6 +284,7 @@ img {
     align-items: center;
     border: solid 1px var(--subtle-text);
     border-radius: 4px;
+    fill: var(--subtle-text);
 }
 .Customers-list {
     display: flex;
@@ -301,16 +297,10 @@ img {
 .customers-link:hover,
 .customers-link:focus {
     border: 1px solid var(--primary-brand);  
+    fill: var(--primary-brand);
 }
 .Customers-icon:not(:last-child) {
     margin-right: 24px;
-}
-.iconCustomers {
-    fill: var(--subtle-text);
-}
-.iconCustomers:hover,
-.iconCustomers:focus {
-    fill: var(--primary-brand);
 }
 .footer {
     background-color: var(--navy-biue);
